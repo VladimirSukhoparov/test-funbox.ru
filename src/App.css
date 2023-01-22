@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Exo2.0";
+  font-style: normal;
+  font-weight: 200;
+  src: url(./Fonts/Exo2.0-Thin.otf);
+}
+
+.App {
+  background: url(./Images/background.png) top left 200px/100px repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+
+}
+
+.title {
+  font-family: 'Exo2.0', sans-serif;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  filter: drop-shadow(0px 1px 0.5px #000000);
+}
+

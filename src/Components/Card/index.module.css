@@ -1,0 +1,269 @@
+.card {
+  width: 320px;
+}
+
+.card {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  margin: 25px 40px
+}
+
+.header {
+  display: -ms-flexbox;
+  display: flex;
+  height: 44px;
+  margin-bottom: -1px;
+}
+
+.triangle {
+  position: relative;
+  width: 43px;
+  background: linear-gradient(
+    -45deg,
+    #f2f2f2,
+    #f2f2f2 28.5px,
+    #1698d9 0,
+    #1698d9 32px,
+    transparent 0
+  );
+}
+
+.title {
+  -ms-flex-positive: 1;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  border: 4px solid #1698d9;
+  border-bottom: none;
+  border-left: none;
+  border-radius: 0 12px 0 0;
+  background: #f2f2f2;
+}
+
+.slogan {
+  font-size: 16px;
+  color: #666666;
+  font-family: "Trebuchet MS", sans-serif;
+  padding-left: 7px;
+}
+
+.footer {
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+  font-family: "Trebuchet MS", sans-serif;
+  text-align: center;
+  filter: drop-shadow(0px 1px 0.5px #000000);
+}
+
+.buy {
+  color: #1698d9;
+}
+
+.link {
+  text-decoration: none;
+  border-bottom: 1px dashed currentColor;
+  color: inherit;
+}
+
+.main {
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+  width: 100%;
+  height: 437px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  padding: 0 46px 25px;
+  border: 4px solid #1698d9;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  background-color: #f2f2f2;
+}
+
+.heading {
+  font-size: 48px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Trebuchet MS", sans-serif;
+  margin: 10px 0 15px 0;
+}
+
+.feature {
+  display: block;
+  font-size: 24px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.list {
+  position: relative;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #666;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.item {
+  font-size: 14px;
+  line-height: 16px;
+  color: #666666;
+  font-weight: bold;
+  font-family: "Trebuchet MS", sans-serif;
+}
+.img {
+  position: absolute;
+  bottom: -95px;
+  left: -25px;
+  z-index: 0;
+  width: 370px;
+}
+
+.circle {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #1698d9;
+}
+
+.weight {
+  position: relative;
+  top: 20px;
+  font-size: 42px;
+  line-height: 22px;
+  color: #ffffff;
+  font-family: "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+.measure {
+  padding-top: 5px;
+  font-size: 21px;
+  line-height: 22px;
+}
+
+.body:hover .circle {
+  background-color: #2ea8e6;
+}
+
+.body:hover .act {
+  border-color: #2ea8e6;
+}
+
+.body:hover .triangle {
+  position: relative;
+  width: 43px;
+  background: linear-gradient(
+    -45deg,
+    #f2f2f2,
+    #f2f2f2 28.5px,
+    #2ea8e6 0,
+    #2ea8e6 32px,
+    transparent 0
+  );
+}
+
+.buy:hover {
+  color: #2ea8e6;
+}
+
+.disabled {
+  cursor: default;
+}
+
+.disabled .main {
+  border-color: #b3b3b3;
+}
+
+.disabled .img {
+  opacity: 0.5;
+}
+
+.disabled .list {
+  opacity: 0.502;
+  color: #b3b3b3;
+}
+.disabled .heading {
+  opacity: 0.502;
+  color: #b3b3b3;
+}
+.disabled .feature {
+  opacity: 0.502;
+  color: #b3b3b3;
+}
+
+.disabled .slogan {
+  opacity: 0.502;
+  color: #b3b3b3;
+}
+
+.disabled .title {
+  border-color: #b3b3b3;
+}
+
+.disabled .triangle {
+  background: linear-gradient(
+    -45deg,
+    #f2f2f2,
+    #f2f2f2 28.5px,
+    #b3b3b3 0,
+    #b3b3b3 32px,
+    transparent 0
+  );
+}
+
+.disabled .circle {
+  background: #b3b3b3;
+}
+
+.disabled .footer {
+  color: #ffff66;
+}
+
+.selected .circle {
+  background-color: #d91667;
+}
+
+.selected .main {
+  border-color: #d91667;
+}
+
+.selected .triangle {
+  background: linear-gradient(
+    -45deg,
+    #f2f2f2,
+    #f2f2f2 28.5px,
+    #d91667 0,
+    #d91667 32px,
+    transparent 0
+  );
+}
+
+.selected .title {
+  border-color: #d91667;
+}
+
+.text {
+  cursor: text;
+}
+
+.subSlogan {
+  font-size: 16px;
+  color: #e62e7a;
+  font-family: "Trebuchet MS", sans-serif;
+  padding-left: 7px;
+}
+
+
+
+
